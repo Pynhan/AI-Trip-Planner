@@ -163,8 +163,6 @@ CMD ["python", "app.py"]
 
 -----
 
-***
-
 ## 🧠 Technical Deep Dive
 
 This section explores the engineering decisions behind the system's three core pillars: **Memory Reranking**, **Social Graph Consistency**, and **Resilient Orchestration**.
@@ -221,11 +219,6 @@ Our `trim_context` algorithm preserves logical consistency:
 3.  **Last-Mile Guarantee:** It forces the retention of the most recent `Human Message` and all subsequent processing, ensuring the Agent never loses track of the immediate request, even if older history must be aggressively pruned.
 
 ---
-Here are the final sections: **Performance Engineering** and the **Footer**.
-
-After this, you will have all the components needed for the complete `README.md`.
-
-***
 
 ## ⚡ Performance Engineering
 
